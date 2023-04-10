@@ -16,14 +16,14 @@ const UserPanel = () => {
           </li>
         </ul>
       </nav>
-      <Switch>
+      <Routes>
         <Route exact path="/">
           <Login />
         </Route>
         <Route path="/users">
           <ListUsers />
         </Route>
-      </Switch>
+      </Routes>
     </Router>
   );
 };
